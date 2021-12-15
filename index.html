@@ -1,0 +1,136 @@
+<html>
+    <!-- Lord let me pray for what I have done -->
+    <head>
+        <title>Justice for Scooter Pooter</title>
+        <style>
+            :root {
+                --cardimg-width: 337px;
+                --cardimg-height: 548px;
+                --outertext-padding: 25px;
+            }
+            a {
+                color: orange;
+            }
+            a:visited {
+                color: orange;
+            }
+            html { 
+                height: 100%;
+                overflow: hidden;
+            }
+            .background {
+                height: 100%;
+
+                background-image: url('https://media.discordapp.net/attachments/873634748709371974/920457435171401808/034384D3-2DFE-40DB-A2C5-C3F68EDC0EC5.png?width=548&height=548');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center, center;
+                filter: blur(10px) grayscale(70%);
+
+                transform: scale(1.1);
+            }
+
+            .card-container {
+                width: calc(var(--cardimg-width) * 3);
+                height: var(--cardimg-height);
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                box-shadow: 10px 5px 50px black;
+            }
+            .card-left {
+                float: left;
+                background-image: url('https://media.discordapp.net/attachments/873634748709371974/920458961252134962/unknown.png?width=337&height=548');
+                width: var(--cardimg-width);
+                height: var(--cardimg-height);
+
+                filter: contrast(100%);
+            }
+            .card-right {
+                float: right;
+                width: calc(var(--cardimg-width) * 2 - 2 * var(--outertext-padding));
+                height: calc(var(--cardimg-height) - 2 * var(--outertext-padding));
+                padding: var(--outertext-padding);
+                background-color: white;
+            }
+
+            .title-text {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-size: 2.3em;
+                margin-bottom: 5%;
+            }
+            .inner-box-container {
+                width: 100%;
+                margin: 10px auto;
+                justify-content: center;
+                display: flex;
+            }
+            .inner-box {
+
+                padding: 5px;
+                margin-right: 10px;
+
+                width: calc((var(--cardimg-width) * 2 - 2 * var(--outertext-padding))/2.5);
+                height: calc(var(--cardimg-height) * 0.7);
+                background-color: #1b1225;
+
+                color: white;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+            }
+            .subcard-title {
+                padding: 10px;
+                color: white;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.2em;
+            }
+            .subcard-text {
+                text-indent: 10%;
+                padding: 10px;
+                color: lightgray;
+                text-align: justify;
+                font-family: 'Roboto', sans-serif;
+                font-size: 0.2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='background'></div>
+
+        <div class='card-container'>
+            <div class='card-left'></div>
+            <div class='card-right'>
+                <div class='title-text'>
+                    JUSTICE FOR SCOOTER POOTER
+                </div>
+                <div class='inner-box-container'>
+                    <div class='inner-box'>
+                        <div class='subcard-title'>What is Scooter Pooter?</div>
+                        <div class='subcard-text'>
+                            Scooter pooter kissing booth (SPKB) is a channel within the Apocrypha discord. It has a purposefully low bitrate because haha funny
+                        </div>
+                        <div class='subcard-title'>What's Wrong with SPKB?</div>
+                        <div class='subcard-text'>
+                            Justin Bayani keeps deleting it because he's cringe. All attempts to recreate a similar channel are met with immediate deletion.
+                        </div>
+                    </div>
+                    <div class='inner-box'>
+                        <div class='subcard-title'>What Benefits Does SPKB Bring to Apoc?</div>
+                        <div class='subcard-text'>
+                            SPKB is a place of respite for all Apoc members, allowing them to relax after a long day of playing the $65+ "game" Destiny 2
+                        </div>
+                        <div class='subcard-title'>What Can I Do to Help?</div>
+                        <div class='subcard-text'>
+                            Join <a href='https://discord.com/invite/apocrypha'>the server</a> and protest. Message Reminiscent#0001 on discord to get him to change his mind.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body> 
+</html>
